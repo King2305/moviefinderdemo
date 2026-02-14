@@ -1,0 +1,122 @@
+
+
+
+@font-face {
+    font-family: "TheLastShuriken";
+    src: url(TheLastShuriken.ttf);
+}
+body {
+    margin: 0px;
+    border: 0px;
+    background-image: url("Copilot_20260213_224235.png");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 1300px 600px;
+}
+
+.writeup{
+    text-align: center;
+    font-family: "TheLastShuriken";
+    color: #B71C1C;
+    text-shadow: 1px 3px 1px #ec5c08;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    font-family: "TheLastShuriken";
+    background-image: linear-gradient( to left, rgb(163, 46, 25), rgb(87, 75, 75)) ;
+    align-items: center;
+    padding: 0px, 20px;
+   
+}
+
+.navbuttons{
+    
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    margin: 0px;
+    gap: 20px;
+}
+
+.companyname{
+    padding-left: 20px;
+    text-shadow: 1px 3px 5px #ffffff;
+}
+
+.accountbtn{
+    font-family: "TheLastShuriken";
+    background-color: #B71C1C;
+    padding: 8px 15px;
+    color: rgb(255, 87, 34);
+    cursor: pointer;
+    border-radius: 5px;
+    border: #ec5c08;
+    transition: 0.3;
+}
+.accountbtn:hover{
+ background-color: black;
+ color: #B71C1C;
+}
+.searchbar{
+    text-align: center;
+    margin: 20px;
+
+}
+
+input{
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "TheLastShuriken";
+    background-color: #B71C1C;
+    color: black;
+    border: black;
+    
+}
+
+#search{
+    font-family: "TheLastShuriken";
+    color: #B71C1C;
+    height: 45px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: black;
+    border: black;
+
+}
+
+#search:hover{
+    background-color: #B71C1C;
+    color: black;
+}
+
+#moviecontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    font-family: "TheLastShuriken";
+
+}
+
+.movie-card {
+    background-color: #ec0808;
+    padding: 15px;
+    width: 350px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.movie-card img {
+    width: 100%;
+}
+
+::placeholder{
+    color: black;
+    opacity: 1;
+}
