@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MOVIESEARCHWEBSITE</title>
+    <title>moviefinder</title>
     <link rel="stylesheet" href="styling.css">
 </head>
 <body>
     <header class = "navigation">
         <h1 class="companyname">
-            ANI-FINDER
+            MOVIE PATH
         </h1>
         <navbar>
             <ul class =  "navbuttons">
@@ -24,16 +24,34 @@
     </header>
     <div class="writeup">
         <span class = "highlight">
-        <h1>ANI-FINDER</h1>
-        <h2>Best anime library site</h2>
+        <h1>MOVIE PATH</h1>
+        <h2>Best Movie Catalogue site</h2>
         </span>
     </div>
     <div class="searchbar">
-            <input type="text" id = "searchbar" placeholder="TYPE ANIME NAME HERE">
-            <button id="search" >SEARCH</button>
+            <input type="text" id = "searchbar" placeholder="TYPE MOVIE NAME HERE">
+            <button id="search" type="button">SEARCH</button>
+            <select id="genreselection">
+                <option value=""  >All Genres</option>
+                <option value="28">Action</option>
+                <option value="35">Comedy</option>
+                <option value="18">Drama</option>
+                <option value="16">Animation</option>
+
+
+
+
+            </select>
     </div>
 
     <div id="moviecontainer"></div>
     <script src = "script.js"></script>
+
+
+    <h2 class = trendingnow>Trending Now</h2>
+    <div id="trending" class="section-container"></div>
+
+    <h2 class = trendingnow>Top Airing</h2>
+    <div id="top-airing" class="section-partition"></div>
 </body>
 </html>
