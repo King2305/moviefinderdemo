@@ -3,27 +3,27 @@
 
 @font-face {
     font-family: "TheLastShuriken";
-    src: url(TheLastShuriken.ttf);
+    src: url(Poppins-Bold.ttf);
 }
 body {
     margin: 0px;
     border: 0px;
-    background-image: url("IMG-20260215-WA0008.jpg");
+    background-image: url("IMG-20260214-WA0112.jpg");
     background-size: cover;
 }
 
 .writeup{
     text-align: center;
     font-family: "TheLastShuriken";
-    color: #B71C1C;
-    text-shadow: 1px 3px 1px #ec5c08;
+    color: #b876e4;
+    text-shadow: 1px 3px 1px #051100;
 }
 
 .navigation{
     display: flex;
     justify-content: space-between;
     font-family: "TheLastShuriken";
-    background-image: linear-gradient( to left, rgb(163, 46, 25), rgb(87, 75, 75)) ;
+    background-image: linear-gradient( to left bottom, rgb(38, 16, 236), rgb(158, 90, 236)) ;
     align-items: center;
     padding: 0px, 20px;
    
@@ -45,17 +45,17 @@ body {
 
 .accountbtn{
     font-family: "TheLastShuriken";
-    background-color: #B71C1C;
+    background-color: #750fe9;
     padding: 8px 15px;
-    color: rgb(255, 87, 34);
+    color: rgb(211, 85, 236);
     cursor: pointer;
     border-radius: 5px;
-    border: #ec5c08;
+    border: #000000;
     transition: 0.3;
 }
 .accountbtn:hover{
- background-color: black;
- color: #B71C1C;
+ background-color: rgb(211, 85, 236);
+ color:#750fe9;
 }
 .searchbar{
     text-align: center;
@@ -70,25 +70,29 @@ input{
     text-align: center;
     margin-top: 20px;
     font-family: "TheLastShuriken";
-    background-color: #B71C1C;
+    background-color: #9420d6;
     color: black;
     border: black;
+    border-radius: 30px;
+    opacity: 0.4;
     
 }
 
 #search{
     font-family: "TheLastShuriken";
-    color: #B71C1C;
+    color: #9420d6;
+    opacity: 0.4;
     height: 45px;
     padding: 10px;
     cursor: pointer;
     background-color: black;
     border: black;
+    border-radius: 30px;
 
 }
 
 #search:hover{
-    background-color: #B71C1C;
+    background-color: #1f1cb7;
     color: black;
 }
 
@@ -191,11 +195,16 @@ input{
 
 #genreselection{
     font-family: "TheLastShuriken";
-    color: #B71C1C;
+    color: #9420d6;
     height: 45px;
     padding: 10px;
     cursor: pointer;
     background-color: black;
     border: black;
 
+}
+
+.trendingnow{
+    font-family: "TheLastShuriken";
+    color: #9420d6;
 }
