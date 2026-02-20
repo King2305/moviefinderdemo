@@ -8,14 +8,14 @@
 body {
     margin: 0px;
     border: 0px;
-    background-image: url("IMG-20260214-WA0112.jpg");
     background-size: cover;
+    background-color: #0B0F19;
 }
 
 .writeup{
     text-align: center;
     font-family: "TheLastShuriken";
-    color: #b876e4;
+    color: #E6EDF3;
     text-shadow: 1px 3px 1px #051100;
 }
 
@@ -23,9 +23,10 @@ body {
     display: flex;
     justify-content: space-between;
     font-family: "TheLastShuriken";
-    background-image: linear-gradient( to left bottom, rgb(38, 16, 236), rgb(158, 90, 236)) ;
+    background-color: #111827;
     align-items: center;
     padding: 0px, 20px;
+    color: #E6EDF3;
    
 }
 
@@ -40,22 +41,22 @@ body {
 
 .companyname{
     padding-left: 20px;
-    text-shadow: 1px 3px 5px #ffffff;
+    text-shadow: 0px 0px 8px rgba(0,194,209,0.25);
 }
 
 .accountbtn{
     font-family: "TheLastShuriken";
-    background-color: #750fe9;
+    background-color:#0F172A;
     padding: 8px 15px;
-    color: rgb(211, 85, 236);
+    color: #6B7280;
     cursor: pointer;
     border-radius: 5px;
-    border: #000000;
+    border-color: #00C2D1;
     transition: 0.3;
 }
 .accountbtn:hover{
- background-color: rgb(211, 85, 236);
- color:#750fe9;
+ background-color: rgba(0, 194, 209, 0.3);
+ color:#E6EDF3;
 }
 .searchbar{
     text-align: center;
@@ -70,9 +71,9 @@ input{
     text-align: center;
     margin-top: 20px;
     font-family: "TheLastShuriken";
-    background-color: #9420d6;
-    color: black;
-    border: black;
+    background-color:#111827;
+    color: #E6EDF3;
+    border-color: #00C2D1;
     border-radius: 30px;
     opacity: 0.4;
     
@@ -80,20 +81,20 @@ input{
 
 #search{
     font-family: "TheLastShuriken";
-    color: #9420d6;
+    color: #E6EDF3;
     opacity: 0.4;
     height: 45px;
     padding: 10px;
     cursor: pointer;
-    background-color: black;
-    border: black;
+    background-color: #0F172A;
+    border-color: #00C2D1;
     border-radius: 30px;
 
 }
 
 #search:hover{
-    background-color: #1f1cb7;
-    color: black;
+    background-color: rgba(0,194,209,0.25);
+    color: #E6EDF3;
 }
 
 #moviecontainer{
@@ -107,10 +108,13 @@ input{
 }
 
 .moviecard {
-    background-color: #9420d6;
+    background-color: #111827;
     padding: 15px;
     width: 350px;
+    border-color: #1F2A40;
     border-radius: 8px;
+    color: #94A3B8;
+
     text-align: center;
 }
 
@@ -119,7 +123,7 @@ input{
 }
 
 ::placeholder{
-    color: black;
+    color: #6B7280;
     opacity: 1;
 }
 
@@ -128,7 +132,8 @@ input{
     gap: 10px;
     overflow: auto;
     padding: 10px 0;
-    min-height: 200px;  
+    min-height: 200px; 
+    background-color: #0B0F19; 
 }
 
 .movie-card {
@@ -138,6 +143,9 @@ input{
     color: white;
     padding: 10px;
     align-items: center;
+    background-color: #111827;
+    border-radius: 1px;
+    border-color: #1F2A40;
 }
 
 .movie-card img {
@@ -155,7 +163,8 @@ input{
 }
 
 .trendingnow{
-    color: #ec5c08;
+    color: #E6EDF3;
+    text-align: center;
 }
 
 .section-partition {
@@ -167,7 +176,7 @@ input{
     overflow-y: auto;
     padding: 10px 0;
     border-radius: 50px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: #0B0F19;
  
     
 }
@@ -176,13 +185,13 @@ input{
     font-family: "TheLastShuriken";
 
     max-width: 400px;
-    color: white;
+    color: #94A3B8;
     gap: 10px;
     align-items: flex-start;
-    
+    background-color: rgba(17, 24, 39, 0.7);
     text-align: center;
     padding: 10px, 0px;
-    text-shadow: 4px 3px 5px #000000;;
+    text-shadow: 4px 3px 5px rgba(0,194,209,0.25);;
 }
 
 .section-partition::-webkit-scrollbar {
@@ -195,18 +204,18 @@ input{
 
 #genreselection{
     font-family: "TheLastShuriken";
-    color: #9420d6;
+    color: #E6EDF3;
     height: 45px;
     padding: 10px;
     cursor: pointer;
-    background-color: black;
-    border: black;
+    background-color: #111827;
+    border-color: #1F2A40;
 
 }
 
 .trendingnow{
     font-family: "TheLastShuriken";
-    color: #9420d6;
+    color:#E6EDF3;
 }
 
 #logo{
@@ -218,6 +227,11 @@ input{
     border-radius: 10px;
 }
 
-rating{
-    color: orange;
+rating
+{
+    color: #39FF14;
+}
+
+h3{
+    color: #E6EDF3;
 }
