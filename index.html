@@ -10,13 +10,20 @@
     <header class = "navigation">
         <h1 class="companyname">
             MOVIE PATH
+            <img src="IMG-20260217-WA0061-removebg-preview.png" alt="company logo" id="logo">
         </h1>
         <navbar>
             <ul class =  "navbuttons">
                 <li>
-                    <button class = "accountbtn">ACCOUNT</button>
-                    <button class = "accountbtn">FAVOURITES</button>
-                    <button class = "accountbtn">SEARCH</button>
+                    <a href="#">
+                        <button class = "accountbtn">ACCOUNT</button>
+                    </a>
+                    <a href="#trending">
+                        <button class = "accountbtn">TRENDING</button>
+                    </a>
+                    <a href="">
+                       <button class = "accountbtn">SEARCH</button>
+                    </a>
                 </li>
             </ul>
         </navbar>
@@ -30,7 +37,7 @@
     </div>
     <div class="searchbar">
             <input type="text" id = "searchbar" placeholder="TYPE MOVIE NAME HERE">
-            <button id="search" type="button">SEARCH</button>
+            <button id="search" type="button" >SEARCH</button>
             <select id="genreselection">
                 <option value=""  >All Genres</option>
                 <option value="28">Action</option>
