@@ -97,6 +97,7 @@ function displayMovie(movie) {
         <h3>${movie.title}</h3>
         <p>${movie.release_date || "No release date"}</p>
         <p>${movie.overview || "No description available"}</p>
+        <rating>${"★" + movie.vote_average|| "No description available"}<rating>
     
     `;
 
